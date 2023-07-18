@@ -1,0 +1,21 @@
+{
+  "name": "vienteblog",
+  "version": "1.0.0",
+  "description": "A blog about being in your 20s",
+  "main": "scripts/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/index.js"
+  },
+  "keywords": [
+    "blog",
+    "ejs"
+  ],
+  "author": "Jevon Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
