@@ -5,7 +5,8 @@
   "main": "scripts/index.js",
   "type": "module",
   "scripts": {
-    "start": "node scripts/index.js"
+    "start": "node scripts/index.js",
+"dev" : "concurrently --kill-others \"sass --watch css/index.scss css/index.css\" \"nodemon -e js,scss,css,ejs\""
   },
   "keywords": [
     "blog",
